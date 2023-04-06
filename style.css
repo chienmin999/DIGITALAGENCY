@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+
+}
+
+/* Navbar */
+
+.container .nav-container {
+    display: flex;
+    width: 80%;
+    height: 28px;
+    margin: 40px auto 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .nav-container .nav-container_heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.container .nav-container .nav-container_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.container .nav-container .nav-container_list .nav-container_item {
+    margin-right: 2.75rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+/* Hero section */
+
+/* Companies section */
+
+@media all and (max-width: 600px) {
+    .container .nav-container .nav-container_list {
+        display: none;
+        
+    }
+}
