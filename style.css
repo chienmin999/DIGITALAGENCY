@@ -45,13 +45,10 @@
     font-size: 1.125rem;
 }
 
+.container .nav-container i {
+    display: none;
+}
+
 /* Hero section */
 
 /* Companies section */
-
-@media all and (max-width: 600px) {
-    .container .nav-container .nav-container_list {
-        display: none;
-        
-    }
-}

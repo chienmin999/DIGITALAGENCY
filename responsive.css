@@ -1,0 +1,20 @@
+
+
+/* Nếu width <=600px thì được phép hoạt động - Sử dụng cho mobile */
+@media all and (max-width: 600px) {
+
+    .container .nav-container .nav-container_heading {
+        font-size: 0.875rem;
+        
+    }
+
+    .container .nav-container .nav-container_list {
+        display: none;
+        
+    }
+    .container .nav-container i {
+        display: block;
+        
+    }
+}
+
