@@ -16,7 +16,7 @@
 
 /* Navbar */
 
-.container .nav-container {
+.nav-container {
     display: flex;
     width: 80%;
     height: 28px;
@@ -26,29 +26,86 @@
 
 }
 
-.container .nav-container .nav-container_heading {
+.nav-container .nav-container_heading {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.25rem;
 }
 
-.container .nav-container .nav-container_list {
+.nav-container .nav-container_list {
     display: flex;
     align-items: center;
     list-style: none;
 
 }
 
-.container .nav-container .nav-container_list .nav-container_item {
+.nav-container .nav-container_list .nav-container_item {
     margin-right: 2.75rem;
     font-weight: 400;
     font-size: 1.125rem;
 }
 
-.container .nav-container i {
+.nav-container i {
     display: none;
 }
 
 /* Hero section */
+
+.hero-container {
+    background-color: #fff;
+    width: 80%;
+    margin: 90px auto 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-container .hero-container-left {
+    padding: 42px 0 49px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.hero-container .hero-container-left h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: capitalize;
+    max-width: 540px;
+    height: auto;
+}
+
+.hero-container .hero-container-left p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: #272D38;
+    max-width: 540px;
+    height: auto;
+}
+
+.hero-container .hero-container-left button {
+    background-color: #8EADD5;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600px;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.hero-container .hero-container-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-container .hero-container-right img{
+    width: 100%;
+
+}
+
+
 
 /* Companies section */
