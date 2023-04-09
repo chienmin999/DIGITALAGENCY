@@ -106,6 +106,29 @@
 
 }
 
-
-
 /* Companies section */
+
+.companies-container {
+    width: 60%;
+    height: 86px;
+    margin: 0 auto;
+}
+
+.companies-container .companies-container-desc {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #667085;
+    font-size: 1rem;
+}
+
+.companies-container .companies-container-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 24px;
+}
+
+.companies-container .companies-container-images .companies-container-image {
+    width: 15%;
+    height: auto;
+}

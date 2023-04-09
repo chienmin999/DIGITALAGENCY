@@ -57,5 +57,24 @@
         width: 120%;
 
     }
+
+    /* Copanies Section */
+
+    .companies-container {
+        margin-top: 80px;
+    }
+
+    .companies-container .companies-container-desc {
+        font-size: 0.875rem;
+    }
+
+    .companies-container .companies-container-images {
+        padding: 10px 15px;
+    }
+    
+    .companies-container .companies-container-images .companies-container-image {
+        width: 20%;
+        height: auto;
+    }
 }
 
