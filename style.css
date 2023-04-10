@@ -127,6 +127,47 @@
     height: auto;
 }
 
+/* Brading Section */
+
+.brading-container {
+    background-color: #fff;
+    width: 80%;
+    margin: 136px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brading-container .brading-container-left {
+    margin-right: 180px;
+    width: 70%;    
+}
+
+.brading-container .brading-container-left img{
+    width: 100%;
+}
+
+.brading-container .brading-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.brading-container .brading-container-right h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.brading-container .brading-container-right p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.brading-container .brading-container-right button {
+    border: none;
+
+}
+
 /* Testimonial Section*/
 
 .testimonial-container {
