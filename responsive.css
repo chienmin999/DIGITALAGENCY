@@ -1,8 +1,5 @@
-
-
 /* Nếu width <=600px thì được phép hoạt động - Sử dụng cho mobile */
 @media all and (max-width: 600px) {
-
     /* Nav-section */
 
     .nav-container {
@@ -11,16 +8,13 @@
 
     .nav-container .nav-container_heading {
         font-size: 0.875rem;
-
     }
 
     .nav-container .nav-container_list {
         display: none;
-        
     }
     .nav-container i {
         display: block;
-        
     }
 
     /* Hero-section */
@@ -28,7 +22,6 @@
     .hero-container {
         flex-direction: column;
         width: 90%;
-        
     }
 
     .hero-container .hero-container-left {
@@ -53,12 +46,11 @@
         padding: 48px 0;
     }
 
-    .hero-container .hero-container-right img{
+    .hero-container .hero-container-right img {
         width: 120%;
-
     }
 
-    /* Copanies Section */
+    /* Companies Section */
 
     .companies-container {
         margin-top: 80px;
@@ -71,10 +63,160 @@
     .companies-container .companies-container-images {
         padding: 10px 15px;
     }
-    
-    .companies-container .companies-container-images .companies-container-image {
+
+    .companies-container
+        .companies-container-images
+        .companies-container-image {
         width: 20%;
         height: auto;
     }
-}
 
+    /* Branding Section */
+
+    .brading-container {
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 88px auto 120px;
+    }
+
+    .brading-container .brading-container-left {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .brading-container .brading-container-right {
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .brading-container .brading-container-right h1 {
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
+    .brading-container .brading-container-right p {
+        font-size: 0.875rem;
+        margin-bottom: 32px;
+    }
+
+    .brading-container .brading-container-right button {
+        border: none;
+        margin-bottom: 25px;
+        transform: rotate(90deg);
+    }
+
+    /* Custom - Section */
+
+    .custom-container {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px auto 120px;
+    }
+
+    .custom-container .custom-container-right {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .custom-container .custom-container-left {
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .custom-container .custom-container-left h1 {
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
+    .custom-container .custom-container-left p {
+        font-size: 0.875rem;
+        margin-bottom: 32px;
+    }
+
+    .custom-container .custom-container-left button {
+        border: none;
+        margin-bottom: 25px;
+        transform: rotate(90deg);
+    }
+
+    /* Testimonial Section */
+
+    .testimonial-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .testimonial-container .testimonial-container-title {
+        font-size: 0.75rem;
+    }
+
+    .testimonial-container .testimonial-container-heading {
+        font-size: 2rem;
+        margin-bottom: 16px;
+    }
+
+    .testimonial-container .testimonial-container-list {
+        flex-direction: column;
+    }
+
+    .testimonial-container
+        .testimonial-container-list
+        .testimonial-container-item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /* Contact Section */
+
+    .contact-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-container .contact-container-left {
+        display: none;
+    }
+
+    .contact-container .contact-container-right {
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-container .contact-container-right h1 {
+        width: 80%;
+        font-size: 2rem;
+        text-transform: none;
+        margin-bottom: 32px;
+    }
+
+    .contact-container .contact-container-right p {
+        font-size: 1rem;
+        text-transform: none;
+        margin-bottom: 48px;
+    }
+
+    /* Footer Section */
+
+    .footer-container .footer-container-list {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 92px;
+    }
+
+    .footer-container .footer-container-list .footer-container-item-1 p {
+        text-transform: capitalize;
+    }
+
+    .footer-container .footer-container-list .footer-container-item-2 h3 {
+        margin-top: 72px;
+    }
+
+    .footer-container .footer-container-list ul {
+        margin-bottom: 72px;
+    }
+}
