@@ -139,10 +139,10 @@
 
 .brading-container .brading-container-left {
     margin-right: 180px;
-    width: 70%;    
+    width: 50%;
 }
 
-.brading-container .brading-container-left img{
+.brading-container .brading-container-left img {
     width: 100%;
 }
 
@@ -165,7 +165,54 @@
 
 .brading-container .brading-container-right button {
     border: none;
+}
 
+/* Custom Section */
+
+.custom-container {
+    background-color: #fff;
+    width: 80%;
+    margin: 136px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-container .custom-container-left {
+    padding: 42px 0 49px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.custom-container .custom-container-left h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: 540px;
+    height: auto;
+}
+
+.custom-container .custom-container-left p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: #272d38;
+    max-width: 540px;
+    height: auto;
+}
+
+.custom-container .custom-container-left button {
+    border: none;
+}
+
+.custom-container .custom-container-right {
+    width: 50%;
+    margin-left: 180px;
+}
+
+.custom-container .custom-container-right img {
+    width: 100%;
 }
 
 /* Testimonial Section*/
@@ -212,6 +259,63 @@
     .testimonial-container-item
     h3 {
     margin: 10px 0 27px 0;
+}
+
+/* Contact section */
+
+.contact-container {
+    background-color: #f5f5f5;
+    width: 80%;
+    margin: 90px auto 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.contact-container .contact-container-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container .contact-container-left img {
+    width: 80%;
+}
+
+.contact-container .contact-container-right {
+    padding: 49px 0 42px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.contact-container .contact-container-right h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: 540px;
+    height: auto;
+}
+
+.contact-container .contact-container-right p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    color: #272d38;
+    max-width: 540px;
+    height: auto;
+}
+
+.contact-container .contact-container-right button {
+    background-color: #8eadd5;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600px;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
 }
 
 /* Footer Section*/
